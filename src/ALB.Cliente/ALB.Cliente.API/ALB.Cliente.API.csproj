@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ALB.Cliente.Application\ALB.Cliente.Application.csproj" />
+    <ProjectReference Include="..\ALB.Cliente.Domain\ALB.Cliente.Domain.csproj" />
+    <ProjectReference Include="..\ALB.Cliente.Infrastruture\ALB.Cliente.Infrastruture.csproj" />
+  </ItemGroup>
+
+
+</Project>
